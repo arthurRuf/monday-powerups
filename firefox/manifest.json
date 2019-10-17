@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Monday-PowerUps",
+  "version": "1.0",
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/border-48.png"
+    },
+    "default_popup": "mondayPowerups.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.monday.com/boards/*"
+      ],
+      "js": [
+        "mondayPowerups.js"
+      ]
+    }
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "arthur.rhc@gmail.com"
+    }
+  }
+}
