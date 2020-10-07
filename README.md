@@ -1,3 +1,3 @@
 # monday-powerups
 
-Just some powerup tools for Monday.com platform, to make your life easier when you're working with it.
+Just a Chrome Extensions to implement some powerups on Monday.com platform, to make your life easier when you're working with it.
